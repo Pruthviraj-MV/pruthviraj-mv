@@ -18,10 +18,10 @@
 
 
 <body>
-    <h1 id="lib-header">pruthviraj's component library</h1>
+    <h1>pruthviraj's component library</h1>
     <!-- 2nd way of doing CSS - style attribute -->
         <!-- style="color:orange" -->
-    <p class="para">I am attending neog.camp and I want to make a library which would 
+    <p>I am attending neog.camp and I want to make a library which would 
         make all my projects look <strong>good and consistent</strong> </p>
 
     <hr>
@@ -37,43 +37,48 @@
 
     <hr>
 
-    <h2> @Container</h2>
+    <h2> @Containers</h2>
 
-    <h3> fluid container </h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <h3> @fluid container </h3>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
 
-    <h3>fluid container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <h3>@center container</h3>
+    <div class="center-container">This is going to be a center container. 
+        It will go till a given width and center content</div>
 
     <hr> 
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="primary-link" href="/">Primary Link</a>
+    <a class="secondary-link"  href="/">Secondary Link</a>
 
     <hr>
 
     <h2>@lists</h2>
 
     <h3>unordered lists</h3>
+    <p>We do not want bullets which can be deleted by css</p>
     <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+        <li class="no-bullets">Item One</li>
+        <li class="no-bullets">Item Two</li>
+        <li class="no-bullets">Item Three</li>
     </ul>
 
     <h3>unordered inline liste</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
 
     <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+        <li class="no-bullets list-inline">Item One</li>
+        <p class="list-inline">| |</p>
+        <li class="no-bullets list-inline">Item Two</li>
+        <p class="list-inline">| |</p>
+        <li class="no-bullets list-inline">Item Three</li>
     </ul>
 
     <h3> reverse ordered list</h3>
-
-    <ol>
+    <p>Counting will go reverse for this list</p>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -82,60 +87,69 @@
     <hr>
 
     <h2>@nav</h2>
-
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">product</a>
-            </li>
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
+    <p>Navigation is used on the top of the page and used to get to different pages</p>
+    <nav class="nav-style">
+        <div class="container">
+            <div class="nav-brand">iAmBrandName</div>
+            <ul>
+                <li>
+                    <a class="active" href="/">home</a>
+                </li>
+                <li>
+                    <a href="/">product</a>
+                </li>
+                <li>
+                    <a href="/">about</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <hr>
 
-    <h2>header</h2>
+    <h2>@header</h2>
 
-    <header>
+    <header class="center-container hero">
         <img src="images/hero.svg"?>
-        <h1>heading inside hero</h1>
+        <h1>this is heading h1 inside header</h1>
     </header>
 
     <hr>
 
     <h2>@section</h2>
+    <p>
+        A section is used to separate parts of pages. 
+        In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.
+    </p>
     <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+        <h3>@normal section</h3>
+        <h2 class="section-heading">Heading inside the section</h2>
+        <p>Text defining this section and many more things </p>
+        <a class="primary-link" href="/">Primary Button</a>
     </section>
 
-    <section>
-        <h3>off white section</h3>
+    <h3>@off white section</h3>
+    <section class="section-offw">
+        
+        <h2 >inside off white section</h2>
         <p>This section will have gray background</p>
+        <a class="primary-link" href="/">Primary Button</a>
     </section>
 
     <hr>
 
     <h2>@footer</h2>
 
-    <footer>
+    <footer class="footer">
         <!-- do not use h1 and h2 in footer -->
-        <div>Some small heading inside footer</div> 
-        <ul>
+        <h2>header inside footer</h2> 
+        <ul class=>
             <li>socialone</li>
             <li>socialtwo</li>
             <li>socilathree</li>
         </ul>
     </footer>
 
-
-
-    <div style="height: 30vh;">
-
-    </div>
 
 
 

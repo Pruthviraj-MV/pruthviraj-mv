@@ -1,7 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 :root {
-    --primary-color: #F87171
+    --primary-color: #F59E0B;
+    --off-white: #fdf7df;
+    --dark-gray: #6B7280;
 }
 
- {
-    color: var(--primary-color)
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    /* padding: 2rem 2rem; */
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.center-container{
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+}
+
+.primary-link{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    width: max-content;
+    min-width: 140px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.secondary-link{
+    text-decoration: none;
+    color: var(--primary-color);
+    width: max-content;
+    min-width: 140px;
+    border:1px solid var(--primary-color);
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.no-bullets{
+    list-style: none;
+}
+
+.list-inline{
+    list-style: none;
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-style{
+    background: var(--primary-color);
+    color: whitesmoke;
+    padding: 1rem 0rem;
+    border-bottom-left-radius: 1rem;
+    margin: 0rem;
+}
+
+.nav-style .nav-brand{
+    font-weight: bold;
+}
+
+.nav-style ul{
+    list-style: none;
+    text-align: right;
+}
+.nav-style a{
+    text-decoration: none;
+    color: whitesmoke;    
+}
+
+.nav-style li{
+    display: inline-block;
+    padding: 0rem 0.8rem;
+}
+
+.nav-style .active{
+    font-weight: bold;
+}
+
+.hero {
+    color: var(--primary-color);
+    display: block;
+}
+
+.hero img{
+    margin: auto;
+    display: block;
+    max-width: 350px;
+}
+
+.section-heading{
+    text-align: center;
+}
+
+.section-offw{
+    background: var(--off-white);
+    padding: 2rem 0rem;
+}
+
+.section-offw h2{
+    text-align: center;
+}
+
+.footer{
+    background: var(--primary-color);
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem 0rem;
+    border-top-right-radius: 1rem;
+    margin: 0px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer li{
+    display: inline;
+    padding: 0rem 0.8rem;
+}
+
+.footer a{
+    text-decoration: none;
 }
