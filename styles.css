@@ -1,0 +1,7 @@
+:root {
+    --primary-color: #F87171
+}
+
+ {
+    color: var(--primary-color)
+}
