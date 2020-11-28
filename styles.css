@@ -198,18 +198,18 @@ hr {
 }
 .blogs {
     margin: 1rem 2rem;
+    
 }
 .blogs p{
-    max-width: 600px;
     text-align: justify;
 }
 
 .blogs img{
     display: block;
     margin: auto;
-    padding: 1rem 1rem;
-    max-width: 350px;
-    /* text-align: justify; */
+    width: 70%;
+    height: auto;
+    border: 1px solid var(--primary-color);
 }
 
 .next-blog{
