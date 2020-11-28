@@ -121,6 +121,7 @@ p {
     color: darkgray;
     display: block;
     font-weight: bolder;
+    padding-top: 1rem;
     padding-bottom: 0rem;
 }
 
@@ -141,7 +142,7 @@ p {
 
 .section-normal {
 
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
 }
 
 .section-normal h2 {
@@ -150,15 +151,15 @@ p {
 
 .section-normal a {
     text-align: center;
-    max-width: 350px;
     display: block;
+    
 }
 
 
 
 .section-offw {
     background: var(--off-white);
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     /* display: block; */
 
 }
@@ -212,4 +213,41 @@ p {
     letter-spacing: 0.1rem;
     font-size: medium;
     
+}
+.blogs {
+    margin: 1rem 2rem;
+}
+.blogs p{
+    max-width: none;
+    text-align: left;
+    text-align: justify;
+}
+
+.blogs img{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    max-width: 500px;
+}
+
+/* .blogs h3, h4{
+    margin: 1rem 2rem;
+} */
+
+.next-blog{
+    text-decoration: none;
+    color: var(--primary-color);
+    width: max-content;
+    border: 1px solid var(--primary-color);
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.prev-blog {
+    text-decoration: none;
+    /* background-color: var(--primary-color); */
+    color: var(--primary-color);
+    width: max-content;
+    padding: 0.3rem 0.3rem;
+    border-radius: 0.5rem;
 }
