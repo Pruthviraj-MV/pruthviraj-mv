@@ -10,6 +10,8 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-size: larger;
+    max-width: 900px;
+    margin: auto;
     
     /* padding: 2rem 2rem; */
 }
@@ -17,6 +19,15 @@ body {
 
 hr{
     margin: 2rem 0;
+}
+
+
+p{
+    padding-bottom: 1rem;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+
 }
 
 .container{
@@ -37,16 +48,17 @@ hr{
     background-color: var(--primary-color);
     color: white;
     width: max-content;
-    min-width: 140px;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    /* min-width: 140px; */
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border-radius: 0.5rem;
+    display: block;
 }
 
 .secondary-link{
     text-decoration: none;
     color: var(--primary-color);
     width: max-content;
-    min-width: 140px;
+    /* min-width: 140px; */
     border:1px solid var(--primary-color);
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
@@ -66,9 +78,10 @@ hr{
 
 .nav-style{
     background: var(--primary-color);
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
     letter-spacing: 0.1rem;
     padding: 1rem 1rem 0rem 1rem;
+    margin: none;
     
 }
 
@@ -97,6 +110,9 @@ hr{
 .nav-style .active{
     font-weight: bolder;
     color: red;
+    border: 3px solid white;
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
 }
 
 .hero {
@@ -108,7 +124,7 @@ hr{
 
 .hero-tag{
     color: var(--primary-color);
-   line-height: 0.2rem;
+   margin-top: 0rem;
 }
 
 .hero img{
@@ -117,13 +133,32 @@ hr{
     max-width: 350px;
 }
 
-.section-heading{
+.hero h1{
+   margin-bottom: 0rem;
+}
+
+.section-normal{
+    
+    padding: 2rem 5rem;
+}
+
+.section-normal h2{
     text-align: center;
 }
 
+.section-normal a{
+    text-align: center;
+    max-width: 350px;
+    display: block;
+}
+
+
+
 .section-offw{
     background: var(--off-white);
-    padding: 2rem 0rem;
+    padding: 2rem 5rem;
+    /* display: block; */
+    
 }
 
 .section-offw h2{
@@ -134,8 +169,8 @@ hr{
     background: var(--primary-color);
     color: whitesmoke;
     text-align: center;
-    padding: 1rem 0rem;
-    border-top-right-radius: 1rem;
+    padding: 2rem 0rem;
+    border-top-right-radius: 2rem;
     margin: 0px;
 }
 
@@ -150,4 +185,30 @@ hr{
 
 .footer a{
     text-decoration: none;
+    color: white;
+}
+
+.footer img{
+    max-width: 40px;
+}
+
+.projects-list{
+    margin: auto;
+}
+
+.projects-list p{
+    text-align: left;
+    /* margin: none; */
+    max-width: none;
+    padding-top: 0.5rem ;
+}
+
+.projects-list smaller{
+    font-size: medium;
+}
+
+.projects-list a{
+    display: inline;
+    letter-spacing: 0.1rem;
+    font-size: medium;
 }
