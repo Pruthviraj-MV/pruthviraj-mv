@@ -85,7 +85,7 @@ hr {
 .nav-style ul {
     list-style: none;
     text-align: right;
-
+    font-size: medium;
 }
 
 .nav-style a {
@@ -95,8 +95,7 @@ hr {
 
 .nav-style li {
     display: inline-block;
-    padding: 0.1rem;
-    padding-bottom: 0rem ;
+    
 }
 
 .nav-style .active {
