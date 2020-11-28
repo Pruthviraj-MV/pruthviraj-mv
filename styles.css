@@ -178,17 +178,18 @@ hr {
 }
 
 .projects-list {
-    margin: auto;
-   
+    margin: auto;     
 }
 
 .projects-list p {
     text-align: left;
     /* margin: none; */
     max-width: none;
-    padding-top: 0.5rem;
 }
-
+.prj-date{
+    margin-bottom: -1rem; 
+    font-size: medium;    
+}
 .projects-list a {
     display: inline;
     letter-spacing: 0.1rem;
