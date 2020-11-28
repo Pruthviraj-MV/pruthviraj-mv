@@ -1,9 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 :root {
     --primary-color: #ffb22d;
-    --off-white: #fdf7df;
+    --off-white: #FFFBEB;
     --dark-gray: #6B7280;
 }
 
@@ -12,17 +11,17 @@ body {
     font-size: larger;
     max-width: 900px;
     margin: auto;
-    
+
     /* padding: 2rem 2rem; */
 }
 
 
-hr{
+hr {
     margin: 2rem 0;
 }
 
 
-p{
+p {
     padding-bottom: 1rem;
     max-width: 600px;
     text-align: center;
@@ -30,12 +29,12 @@ p{
 
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.center-container{
+.center-container {
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -43,7 +42,7 @@ p{
     text-align: center;
 }
 
-.primary-link{
+.primary-link {
     text-decoration: none;
     background-color: var(--primary-color);
     color: white;
@@ -54,60 +53,63 @@ p{
     display: block;
 }
 
-.secondary-link{
+.secondary-link {
     text-decoration: none;
     color: var(--primary-color);
     width: max-content;
     /* min-width: 140px; */
-    border:1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
 
 }
 
-.no-bullets{
+.no-bullets {
     list-style: none;
 }
 
-.list-inline{
+.list-inline {
     list-style: none;
     display: inline;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.nav-style{
+.nav-style {
     background: var(--primary-color);
-    border-bottom-left-radius: 2rem;
+
+    border-style: inset;
+    border-bottom-right-radius: 2rem;
     letter-spacing: 0.1rem;
     padding: 1rem 1rem 0rem 1rem;
     margin: none;
-    
+
 }
 
-.nav-style .nav-brand{
+.nav-style .nav-brand {
     font-weight: bolder;
     text-transform: uppercase;
     color: white;
-    
+
 }
 
-.nav-style ul{
+.nav-style ul {
     list-style: none;
     text-align: right;
-    
-}
-.nav-style a{
-    text-decoration: none;
-    color: white;    
+
 }
 
-.nav-style li{
+.nav-style a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-style li {
     display: inline-block;
     padding: 0.5rem;
 }
 
-.nav-style .active{
+.nav-style .active {
     font-weight: bolder;
     color: red;
     border: 3px solid white;
@@ -122,31 +124,31 @@ p{
     padding-bottom: 0rem;
 }
 
-.hero-tag{
+.hero-tag {
     color: var(--primary-color);
-   margin-top: 0rem;
+    margin-top: 0rem;
 }
 
-.hero img{
+.hero img {
     margin: auto;
     display: block;
     max-width: 350px;
 }
 
-.hero h1{
-   margin-bottom: 0rem;
+.hero h1 {
+    margin-bottom: 0rem;
 }
 
-.section-normal{
-    
+.section-normal {
+
     padding: 2rem 5rem;
 }
 
-.section-normal h2{
+.section-normal h2 {
     text-align: center;
 }
 
-.section-normal a{
+.section-normal a {
     text-align: center;
     max-width: 350px;
     display: block;
@@ -154,61 +156,60 @@ p{
 
 
 
-.section-offw{
+.section-offw {
     background: var(--off-white);
     padding: 2rem 5rem;
     /* display: block; */
-    
+
 }
 
-.section-offw h2{
+.section-offw h2 {
     text-align: center;
 }
 
-.footer{
+.footer {
     background: var(--primary-color);
     color: whitesmoke;
     text-align: center;
-    padding: 2rem 0rem;
-    border-top-right-radius: 2rem;
+    padding: 1rem 0rem;
+    border-style: outset;
+    border-top-left-radius: 2rem;
     margin: 0px;
 }
 
-.footer ul{
+.footer ul {
     list-style: none;
 }
 
-.footer li{
+.footer li {
     display: inline;
     padding: 0rem 0.8rem;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: white;
 }
 
-.footer img{
+.footer img {
     max-width: 40px;
 }
 
-.projects-list{
+.projects-list {
     margin: auto;
+   
 }
 
-.projects-list p{
+.projects-list p {
     text-align: left;
     /* margin: none; */
     max-width: none;
-    padding-top: 0.5rem ;
+    padding-top: 0.5rem;
 }
 
-.projects-list smaller{
-    font-size: medium;
-}
-
-.projects-list a{
+.projects-list a {
     display: inline;
     letter-spacing: 0.1rem;
     font-size: medium;
+    
 }
