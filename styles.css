@@ -203,7 +203,6 @@ hr {
 }
 .blogs p{
     max-width: none;
-    text-align: left;
     text-align: justify;
 }
 
@@ -212,11 +211,8 @@ hr {
     margin: auto;
     padding: 1rem 1rem;
     max-width: 350px;
+    text-align: justify;
 }
-
-/* .blogs h3, h4{
-    margin: 1rem 2rem;
-} */
 
 .next-blog{
     text-decoration: none;
