@@ -210,8 +210,8 @@ hr {
 .blogs img{
     display: block;
     margin: auto;
-    padding: 1rem;
-    max-width: 500px;
+    padding: 1rem 1rem;
+    max-width: 400px;
 }
 
 /* .blogs h3, h4{
