@@ -9,7 +9,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-size: larger;
-    max-width: 900px;
+    max-width: 600px;
     margin: auto;
 
     /* padding: 2rem 2rem; */
@@ -20,14 +20,6 @@ hr {
     margin: 2rem 0;
 }
 
-
-p {
-    padding-bottom: 1rem;
-    max-width: 600px;
-    text-align: center;
-    margin: auto;
-
-}
 
 .container {
     padding-left: 1rem;
@@ -141,27 +133,19 @@ p {
 }
 
 .section-normal {
-
-    padding: 2rem 10rem;
+    margin: auto;
+    padding: 1rem 2rem;
 }
 
 .section-normal h2 {
     text-align: center;
 }
 
-.section-normal a {
-    text-align: center;
-    display: block;
-    
-}
-
-
 
 .section-offw {
     background: var(--off-white);
-    padding: 2rem 10rem;
-    /* display: block; */
-
+    margin: auto;
+    padding: 1rem 2rem;
 }
 
 .section-offw h2 {
@@ -251,3 +235,4 @@ p {
     padding: 0.3rem 0.3rem;
     border-radius: 0.5rem;
 }
+
