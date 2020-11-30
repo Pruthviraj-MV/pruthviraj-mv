@@ -160,15 +160,23 @@ hr {
     border-style: outset;
     border-top-left-radius: 2rem;
     margin: auto;
+    margin-top: 3rem;
 }
 
 .footer ul {
     list-style: none;
+    margin-bottom: 0.5rem;
+    
 }
 
 .footer li {
     display: inline;
     padding: 0rem 0.8rem;
+    
+}
+
+.footer h5{
+    margin-top: 0.5rem;
 }
 
 .footer a {
@@ -203,12 +211,16 @@ hr {
 }
 
 .blogs {
-    margin-right: 1rem;
+    margin : 1rem 1rem;
+}
+
+.blogs li{
+    margin: auto;
 }
 
 .blogs p {
     text-align: justify;
-    margin-right: 2rem;
+    margin: 1rem 2rem;
 }
 
 .blogs img {
