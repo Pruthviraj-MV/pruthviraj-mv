@@ -38,9 +38,10 @@ hr {
     color: white;
     width: max-content;
     /* min-width: 140px; */
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.3rem 0.3rem;
     border-radius: 0.5rem;
     display: block;
+    
 }
 
 .secondary-link {
@@ -49,8 +50,10 @@ hr {
     width: max-content;
     /* min-width: 140px; */
     border: 1px solid var(--primary-color);
-    padding: 0.5rem 0.5rem;
+    padding: 0.3rem 0.3rem;
     border-radius: 0.5rem;
+    display: block;
+    
 
 }
 
@@ -193,9 +196,8 @@ hr {
 }
 .projects-list a {
     display: inline;
-    letter-spacing: 0.1rem;
-    font-size: medium;
-    
+    font-size: small;
+    font-weight: bold; 
 }
 .blogs {
     margin: 1rem 2rem;
