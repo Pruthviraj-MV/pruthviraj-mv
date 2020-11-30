@@ -38,7 +38,7 @@ hr {
     color: white;
     width: max-content;
     /* min-width: 140px; */
-    padding: 0.3rem 0.3rem;
+    padding: 0.3rem 0.5rem;
     border-radius: 0.5rem;
     display: block;
 
@@ -50,7 +50,7 @@ hr {
     width: max-content;
     /* min-width: 140px; */
     border: 1px solid var(--primary-color);
-    padding: 0.3rem 0.3rem;
+    padding: 0.3rem 0.5rem;
     border-radius: 0.5rem;
     display: block;
     
@@ -58,6 +58,7 @@ hr {
 
 .no-bullets {
     list-style: none;
+    margin: 1rem 1rem 1rem -1rem;
 }
 
 .list-inline {
@@ -208,6 +209,10 @@ hr {
     display: inline;
     font-size: small;
     font-weight: bold;
+}
+.blogs-list p{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .blogs {
