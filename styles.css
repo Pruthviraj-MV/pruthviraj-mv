@@ -156,10 +156,10 @@ hr {
     background: var(--primary-color);
     color: whitesmoke;
     text-align: center;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     border-style: outset;
     border-top-left-radius: 2rem;
-    margin: 0px;
+    margin: auto;
 }
 
 .footer ul {
@@ -186,7 +186,7 @@ hr {
 
 .projects-list p {
     text-align: left;
-    /* margin: none; */
+    margin-right: 1rem;
     max-width: none;
 }
 .prj-date{
