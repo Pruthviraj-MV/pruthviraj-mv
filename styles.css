@@ -254,3 +254,7 @@ hr {
     padding: 0.3rem 0.3rem;
     border-radius: 0.5rem;
 }
+
+i{
+    image-resolution: 100px;
+}
