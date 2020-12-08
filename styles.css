@@ -9,8 +9,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-size: larger;
-    max-width: 800px;
-    margin: auto;
+    margin: 0;
 }
 
 
@@ -18,8 +17,14 @@ hr {
     margin: 2rem 0;
 }
 
+ol{
+    max-width: 800px;
+    margin: auto;
+}
+
 
 .container {
+    
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -37,7 +42,6 @@ hr {
     background-color: var(--primary-color);
     color: white;
     width: max-content;
-    /* min-width: 140px; */
     padding: 0.3rem 0.5rem;
     border-radius: 0.5rem;
     display: block;
@@ -48,7 +52,6 @@ hr {
     text-decoration: none;
     color: var(--primary-color);
     width: max-content;
-    /* min-width: 140px; */
     border: 1px solid var(--primary-color);
     padding: 0.3rem 0.5rem;
     border-radius: 0.5rem;
@@ -57,8 +60,9 @@ hr {
 }
 
 .no-bullets {
+    max-width: 800px;
     list-style: none;
-    margin: 1rem 1rem 1rem -1rem;
+    margin: auto;
 }
 
 .list-inline {
@@ -69,17 +73,21 @@ hr {
 }
 
 .nav-style {
+    max-width: none;
+    margin: auto;
     background: var(--primary-color);
     border-style: inset;
     border-bottom-right-radius: 2rem;
     letter-spacing: 0.1rem;
     padding: 1rem 1rem 0rem 1rem;
+    
 }
 
 .nav-style .nav-brand {
     font-weight: bolder;
     text-transform: uppercase;
     color: white;
+    margin-left: 0;
 
 }
 
@@ -93,6 +101,7 @@ hr {
 .nav-style a {
     text-decoration: none;
     color: white;
+    margin-left: 1rem;
 }
 
 .nav-style li {
@@ -134,6 +143,7 @@ hr {
 }
 
 .section-normal {
+    max-width: 800px;
     margin: auto;
     padding: 1rem 2rem;
 }
@@ -144,6 +154,7 @@ hr {
 
 
 .section-offw {
+    max-width: 800px;
     background: var(--off-white);
     margin: auto;
     padding: 1rem 2rem;
@@ -190,6 +201,7 @@ hr {
 }
 
 .projects-list {
+    max-width: 800px;
     margin: auto;
 }
 
@@ -200,23 +212,33 @@ hr {
 }
 
 .prj-date {
-    margin-bottom: -1rem;
-    margin-top: -0.7rem;
+    margin-bottom: -0.8rem;
+    margin-top: -0.8rem;
     font-size: medium;
 }
 
 .projects-list a {
-    display: inline;
-    font-size: small;
+    display: block;
+    font-size: medium;
     font-weight: bold;
+    margin-top: 0.6rem;
+}
+.project-mark{
+    font-size: small;
 }
 .blogs-list p{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    max-width: 800px;
+    margin: auto;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
 }
 
 .blogs {
-    margin : 1rem 1rem;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    /* margin-left: 1rem; */
+    
 }
 
 .blogs li{
