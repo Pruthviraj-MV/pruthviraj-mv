@@ -12,6 +12,14 @@ body {
     margin: 0;
 }
 
+#dark-btn{
+    display: block;
+    margin-left: auto;
+    text-align: right;
+    border-radius: 0.3rem;
+    color: var(--dark-gray);
+    
+}
 
 hr {
     margin: 2rem 0;
